@@ -1,0 +1,28 @@
+{
+  "lista-itens": [
+    {
+      "id": 1,
+      "titulo": "Stormtrooper",
+      "valor": "60,00",
+      "imagem": "https://images.tcdn.com.br/img/img_prod/460977/caneca_3d_capacete_stormtrooper_star_wars_38241_1_20201211173734.jpeg"
+    },
+    {
+      "titulo": "Camisa Berser",
+      "valor": "70,00",
+      "imagem": "https://rsv-ink-images-production.s3.sa-east-1.amazonaws.com/images/product_v2/main_image/586def9eb6fad320d44f057daa0f44bc.webp",
+      "id": 2
+    },
+    {
+      "titulo": "MOLETOM FULL PRINT - LUA SUPERIOR",
+      "valor": "149,90",
+      "imagem": "https://cdn.vnda.com.br/360x/lolja/2024/06/30/18_32_48_273_18_6_9_974_moletom20preto20masculino20122020copia2020copia.png?v=1719783195",
+      "id": 3
+    },
+    {
+      "titulo": "CAMISETA PRETA - LUA SUPERIOR",
+      "valor": "79,90",
+      "imagem": "https://cdn.vnda.com.br/360x/lolja/2024/06/25/16_17_19_580_16_6_9_948_camiseta20preta20masc202.png?v=1719343071",
+      "id": 4
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/desenvolvimento/alura/html_css" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/eclipse-workspace" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/eclipse-workspace/Java" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/eclipse-workspace/Java/Alura/loja_virtual" vcs="Git" />
+  </component>
+</project>

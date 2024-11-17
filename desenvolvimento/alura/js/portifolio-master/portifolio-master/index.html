@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <script defer src="js/mostrarItens.js" type="module"></script>
+    <script defer src="js/criarItem.js" type="module"></script>
+    <script defer src="js/deletarProduto.js" type="module"></script>
+    <title>AluraGeek</title>
+</head>
+<body>
+    <header>
+        <div id="cabecalho">
+            <img src="./assets/Logo.svg" alt="logo">
+        </div>
+    </header>
+
+    <main>
+        <section id="lista-produtos" data-lista>
+            <h1 id="titulo-lista-produtos">Meus Produtos</h1>
+            
+            <ul id="lista-produtos-itens" data-lista-produto-itens>
+                <!--
+                <li class="card-produto">
+                    <img class="img-lista-produtos" src="assets/img.jpg" alt="">
+                    <h5>titulo</h5>
+                    
+                    
+                    
+                    <div class="card-produto-desc">
+                        <span >Valor</span>
+                        <span>excluir</span>
+                    </div>
+                </li>-->
+            </ul>
+        </section>
+
+        <section id="adicionar-produto" data-adicionar-produto>
+            <h1>Adicionar Produto</h1>
+            <form class="form-adicionar-produto" data-formulario>
+
+                <input class="input-form-adicionar-produto" type="text" name="nome-produto" id="nome-produto" placeholder="Nome do item..." required data-nome-titulo>
+
+                <input class="input-form-adicionar-produto" type="text" name="valor-produto" id="valor-produto" placeholder="Valor do item..." required data-valor>
+
+                <input class="input-form-adicionar-produto" type="text" name="imagem-produto" id="imagem-produto" placeholder="Imagem..." required data-imagem>
+
+                <div id="botao-forulario">
+                    
+                    <button class="btn-campo-envio" id="limpar-furmulario-envio" value="Cadastar" name="cadastrar">
+                        Cadastrar
+                    </button>
+                    
+
+                    <button class="btn-campo-envio" type="submit">
+                        Limpar
+                    </button>
+
+                </div>
+            </form>
+
+        </section>
+    </main>
+
+    <footer id="rodape">
+       <div>
+            <img id="img-rodape" src="assets/Logo.svg" alt="logo alura-geek">
+            <p id="info-dev">Desenvolvido por Marinaldo Silva</p>
+            <p id="info-empresas">Alura LATAM 2024</p>
+       </div>  
+    </footer>
+</body>
+</html>
